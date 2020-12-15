@@ -10,7 +10,7 @@ private:            // if x0 = x then y0 < y
     int x;
     int y;
     char type = whatType();
-    int lengthh = whatLength();
+    int length1 = whatLength();
     
 
 

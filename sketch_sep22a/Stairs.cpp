@@ -9,9 +9,18 @@ private:
     int y0;
     int x;
     int y;
+    const int betweenVertical = 7;
+    const int betweenHorizontal = 4;
 public:
     Stairs(int x0, int y0, int x, int y) : x0(x0), y0(y0), x(x), y(y) {}
 
+    const int getBetweenVertical() const {
+        return betweenVertical;
+    }
+
+    const int getBetweenHorizontal() const {
+        return betweenHorizontal;
+    }
     int getX0() const {
         return x0;
     }
